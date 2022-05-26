@@ -11,9 +11,7 @@ export const Container = styled(MapContainer)`
       display: flex;
       flex-direction: column;
       margin: 0;
-      @media (max-width: 767px) {
-        max-width: 172px;
-      }
+      
       p {
         margin: 0;
       }
@@ -28,7 +26,7 @@ export const Container = styled(MapContainer)`
           font-weight: 600;
         }
         p {
-          max-width: 230px;
+          white-space: nowrap;
         }
       }
     }
